@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Quarto Template"
+  title: "PyVista"
   navbar:
     right:
       - href: index.qmd
@@ -16,6 +16,7 @@ format:
   html:
     theme:
       light: [litera, styles.scss]
+      dark: [litera, styles.scss]
     highlight-style: a11y-dark
     mainfont: "Roboto"
     code-copy: true

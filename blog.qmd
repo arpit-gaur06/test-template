@@ -1,5 +1,5 @@
 ---
-title: "Quarto Blog"
+title: "PyVista Overview"
 listing:
   contents: posts
   sort: "date desc"

@@ -1,16 +1,16 @@
 ---
-title: "Welcome"
+title: "3D Visualizations"
 description: "Welcome Post"
-author: "Nipun Batra"
-date: "2/14/2025"
+author: "Arpit Gaur, Prince A Patel, Monika Nagliya"
+date: "2/22/2025"
 ---
 
 
-# Welcome
+# 3D Visualizations
 
-**Hello world**, this is my first blog post.
+**Overview**
 
-I can write in markdown
+
 
 ```python
 print("Hello World")
