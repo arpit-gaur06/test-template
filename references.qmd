@@ -1,0 +1,4 @@
+PyVista is a powerful and user-friendly library for 3D visualization and mesh analysis. It simplifies working with scientific and engineering datasets by providing an intuitive API while leveraging VTK's powerful capabilities.
+PyVista is a versatile tool for 3D visualization and data analysis across multiple domains, including engineering, medicine, robotics, game development, structural analysis, AI, and environmental science. Its ease of use and integration with NumPy and VTK make it an essential tool for professionals and researchers.
+
+For more details, visit the official documentation: https://docs.pyvista.org/
