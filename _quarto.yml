@@ -4,6 +4,7 @@ project:
 
 website:
   title: "PyVista"
+  logo: "images/pyvista_logo.png"
   navbar:
     right:
       - href: index.qmd
