@@ -1,6 +1,6 @@
 ---
 title: "Getting Started"
-description: "Installation & Setup"
+description: "Installation, Setup and Examples"
 author: "Arpit Gaur, Prince A Patel, Monika Nagliya"
 date: "2/24/2025"
 ---
@@ -9,7 +9,7 @@ date: "2/24/2025"
 
 **1. Install Pyvista**
 
-The only prerequisite for installing PyVista is Python itself. We can use Anaconda or Pip as a virtual environment and package manager for Python.
+The only prerequisite for installing PyVista is Python itself. We can use Anaconda or Pip as virtual environment and package manager for Python.
 
 PyVista can be installed by `conda-forge`:
 ```python
@@ -44,4 +44,5 @@ pip install trame-vuetify trame-vtk
 ```
 
 This will open an interactive 3D plot. You can rotate, zoom, and inspect the mesh.
+
 With that, we're ready to use PyVista!
