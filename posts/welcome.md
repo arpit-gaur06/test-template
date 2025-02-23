@@ -8,6 +8,18 @@ date: "2/22/2025"
 
 # Key Features of PyVista
 
+1. 3D Visualization
+
+Explanation: PyVista simplifies the rendering of 3D objects such as meshes, point clouds, structured grids, and volumetric data. It provides an intuitive interface for visualizing geometric and scientific datasets.
+
+Example: Displaying a 3D sphere.
+
+```python
+import pyvista as pv
+sphere = pv.Sphere()
+sphere.plot(color="cyan", show_edges=True)
+```
+
 1. 3D Visualization:
 Easily create and render 3D objects such as point clouds, surfaces, volumes, and structured/unstructured grids.
 2. Mesh Analysis and Processing:
