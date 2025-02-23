@@ -1,6 +1,7 @@
 ![3D plotting and mesh analysis through a streamlined interface for the Visualization Toolkit (VTK)](pyvista_logo.png)
 
-PyVista is:
+PyVista is an open-source Python library that provides tools for 3D visualization and analysis of scientific and engineering data. It is built on top of VTK (Visualization Toolkit) and offers an easy-to-use, Pythonic API for creating and interacting with 3D models, meshes, and volumetric data.
+
 
 
 - Pythonic VTK: a high-level API to the Visualization Toolkit (VTK)
