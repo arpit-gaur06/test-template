@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "PyVista Overview",
     "section": "",
-    "text": "Key Features\n\n\n\n\n\nWelcome Post\n\n\n\n\n\nFeb 22, 2025\n\n\nArpit Gaur, Prince A Patel, Monika Nagliya\n\n\n\n\n\n\n\n\n\n\n\n\nSimple Visualisation\n\n\n\n\n\n\nML\n\n\n\n\n\n\n\n\n\nFeb 14, 2025\n\n\nNipun Batra\n\n\n\n\n\n\nNo matching items"
+    "text": "Getting Started\n\n\n\n\n\nInstallation & Setup\n\n\n\n\n\nFeb 24, 2025\n\n\nArpit Gaur, Prince A Patel, Monika Nagliya\n\n\n\n\n\n\n\n\n\n\n\n\nKey Features\n\n\n\n\n\nWelcome Post\n\n\n\n\n\nFeb 22, 2025\n\n\nArpit Gaur, Prince A Patel, Monika Nagliya\n\n\n\n\n\n\n\n\n\n\n\n\nSimple Visualisation\n\n\n\n\n\n\nML\n\n\n\n\n\n\n\n\n\nFeb 14, 2025\n\n\nNipun Batra\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -12,6 +12,13 @@
     "title": "",
     "section": "",
     "text": "3D plotting and mesh analysis through a streamlined interface for the Visualization Toolkit (VTK)\n\n\nPyVista is:\n\nPythonic VTK: a high-level API to the Visualization Toolkit (VTK)\nmesh data structures and filtering methods for spatial datasets\n3D plotting made simple and built for large/complex data geometries\n\nPyVista is a helper library for the Visualization Toolkit (VTK) that takes a different approach on interfacing with VTK through NumPy and direct array access. This package provides a Pythonic, well-documented interface exposing VTK’s powerful visualization backend to facilitate rapid prototyping, analysis, and visual integration of spatially referenced datasets.\nThis module can be used for scientific plotting for presentations and research papers as well as a supporting module for other mesh dependent Python modules."
+  },
+  {
+    "objectID": "posts/installation.html",
+    "href": "posts/installation.html",
+    "title": "Getting Started",
+    "section": "",
+    "text": "Installation\n1. Install Pyvista\nThe only prerequisite for installing PyVista is Python itself. We can use Anaconda or Pip as a virtual environment and package manager for Python.\nPyVista can be installed by conda-forge:\nconda install -c conda-forge pyvista\nor can be installed via pip by the following command:\npip install pyvista\nThis will automatically install PyVista along with all the necessary dependencies.\n2. Optional: Install vtk for 3D Visualization\nPyVista builds on VTK, so if you’re running into issues with installation or if you want to manually install VTK, you can install it separately:\npip install vtk\n3. Verify the Installation\nOnce installed, you can verify if everything is set up correctly by opening a Python environment (either a Python shell or a Jupyter notebook) and typing:\nimport pyvista as pv\nprint(pv.__version__)\n4. Optional: Install trame for 3D Visualization\nWe will be going to install trame library which is an optional dependency for interactive notebook rendering.\npip install trame-vuetify trame-vtk\nThis will open an interactive 3D plot. You can rotate, zoom, and inspect the mesh. With that, we’re ready to use PyVista!"
   },
   {
     "objectID": "posts/visualisation.html",
@@ -25,6 +32,6 @@
     "href": "posts/welcome.html",
     "title": "Key Features",
     "section": "",
-    "text": "3D Visualizations\nOverview\nprint(\"Hello World\")\nI can also write math equations:\n\\[\ny = x^2\n\\]\nI can create lists easily:\n\nOne\nTwo\n\nI can also create numbered lists:\n\nOne\nTwo\n\nOr, create a table:\n\n\n\nName\nAge\n\n\n\n\nAlice\n20\n\n\nBob\n21"
+    "text": "3D Visualization\nOverview\nprint(\"Hello World\")\nI can also write math equations:\n\\[\ny = x^2\n\\]\nI can create lists easily:\n\nOne\nTwo\n\nI can also create numbered lists:\n\nOne\nTwo\n\nOr, create a table:\n\n\n\nName\nAge\n\n\n\n\nAlice\n20\n\n\nBob\n21"
   }
 ]
