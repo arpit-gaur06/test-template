@@ -2,18 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://arpit-gaur06.github.io/test-template/blog.html</loc>
-    <lastmod>2025-02-22T10:03:41.850Z</lastmod>
-  </url>
-  <url>
-    <loc>https://arpit-gaur06.github.io/test-template/posts/welcome.html</loc>
-    <lastmod>2025-02-22T10:03:41.851Z</lastmod>
-  </url>
-  <url>
-    <loc>https://arpit-gaur06.github.io/test-template/posts/visualisation.html</loc>
-    <lastmod>2025-02-22T10:03:41.851Z</lastmod>
+    <lastmod>2025-02-23T11:46:26.128Z</lastmod>
   </url>
   <url>
     <loc>https://arpit-gaur06.github.io/test-template/index.html</loc>
-    <lastmod>2025-02-22T10:03:41.850Z</lastmod>
+    <lastmod>2025-02-23T11:46:26.128Z</lastmod>
+  </url>
+  <url>
+    <loc>https://arpit-gaur06.github.io/test-template/posts/visualisation.html</loc>
+    <lastmod>2025-02-23T11:46:26.130Z</lastmod>
+  </url>
+  <url>
+    <loc>https://arpit-gaur06.github.io/test-template/posts/welcome.html</loc>
+    <lastmod>2025-02-23T11:46:26.130Z</lastmod>
+  </url>
+  <url>
+    <loc>https://arpit-gaur06.github.io/test-template/references.html</loc>
+    <lastmod>2025-02-23T11:46:26.130Z</lastmod>
   </url>
 </urlset>

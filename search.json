@@ -7,11 +7,11 @@
     "text": "3D Visualizations\n\n\n\n\n\nWelcome Post\n\n\n\n\n\nFeb 22, 2025\n\n\nArpit Gaur, Prince A Patel, Monika Nagliya\n\n\n\n\n\n\n\n\n\n\n\n\nSimple Visualisation\n\n\n\n\n\n\nML\n\n\n\n\n\n\n\n\n\nFeb 14, 2025\n\n\nNipun Batra\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/welcome.html",
-    "href": "posts/welcome.html",
-    "title": "3D Visualizations",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "PyVista",
     "section": "",
-    "text": "3D Visualizations\nOverview\nprint(\"Hello World\")\nI can also write math equations:\n\\[\ny = x^2\n\\]\nI can create lists easily:\n\nOne\nTwo\n\nI can also create numbered lists:\n\nOne\nTwo\n\nOr, create a table:\n\n\n\nName\nAge\n\n\n\n\nAlice\n20\n\n\nBob\n21"
+    "text": "3D plotting and mesh analysis through a streamlined interface for the Visualization Toolkit (VTK)\n\n\nPyVista is:\n\nPythonic VTK: a high-level API to the Visualization Toolkit (VTK)\nmesh data structures and filtering methods for spatial datasets\n3D plotting made simple and built for large/complex data geometries\n\nPyVista is a helper library for the Visualization Toolkit (VTK) that takes a different approach on interfacing with VTK through NumPy and direct array access. This package provides a Pythonic, well-documented interface exposing VTK’s powerful visualization backend to facilitate rapid prototyping, analysis, and visual integration of spatially referenced datasets.\nThis module can be used for scientific plotting for presentations and research papers as well as a supporting module for other mesh dependent Python modules."
   },
   {
     "objectID": "posts/visualisation.html",
@@ -21,10 +21,10 @@
     "text": "import numpy as np\nimport matplotlib.pyplot as plt\n%matplotlib inline\n%config InlineBackend.figure_format = 'retina'\n\n\nx = np.linspace(0, 10, 100)\ny = np.sin(x)\n\nplt.plot(x, y)"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "PyVista",
+    "objectID": "posts/welcome.html",
+    "href": "posts/welcome.html",
+    "title": "3D Visualizations",
     "section": "",
-    "text": "PyVista is:\n\nPythonic VTK: a high-level API to the Visualization Toolkit (VTK)\nmesh data structures and filtering methods for spatial datasets\n3D plotting made simple and built for large/complex data geometries\n\nPyVista is a helper library for the Visualization Toolkit (VTK) that takes a different approach on interfacing with VTK through NumPy and direct array access. This package provides a Pythonic, well-documented interface exposing VTK’s powerful visualization backend to facilitate rapid prototyping, analysis, and visual integration of spatially referenced datasets.\nThis module can be used for scientific plotting for presentations and research papers as well as a supporting module for other mesh dependent Python modules."
+    "text": "3D Visualizations\nOverview\nprint(\"Hello World\")\nI can also write math equations:\n\\[\ny = x^2\n\\]\nI can create lists easily:\n\nOne\nTwo\n\nI can also create numbered lists:\n\nOne\nTwo\n\nOr, create a table:\n\n\n\nName\nAge\n\n\n\n\nAlice\n20\n\n\nBob\n21"
   }
 ]
