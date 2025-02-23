@@ -1,7 +1,3 @@
----
-title: PyVista
----
-
 ![3D plotting and mesh analysis through a streamlined interface for the Visualization Toolkit (VTK)](pyvista_logo.png)
 
 PyVista is:
