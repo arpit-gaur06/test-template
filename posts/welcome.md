@@ -6,7 +6,7 @@ date: "2/22/2025"
 ---
 
 
-# 3D Visualizations
+# 3D Visualization
 
 **Overview**
 
