@@ -23,40 +23,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -106,35 +72,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -219,43 +156,17 @@ window.Quarto = {
 </header>
 
 
-<section id="d-visualization" class="level1">
-<h1>3D Visualization</h1>
-<p><strong>Overview</strong></p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Hello World"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>I can also write math equations:</p>
-<p><span class="math display">\[
-y = x^2
-\]</span></p>
-<p>I can create lists easily:</p>
-<ul>
-<li>One</li>
-<li>Two</li>
-</ul>
-<p>I can also create numbered lists:</p>
+<section id="key-features-of-pyvista" class="level1">
+<h1>Key Features of PyVista</h1>
 <ol type="1">
-<li>One</li>
-<li>Two</li>
+<li>3D Visualization: Easily create and render 3D objects such as point clouds, surfaces, volumes, and structured/unstructured grids.</li>
+<li>Mesh Analysis and Processing: Provides tools for manipulating and analyzing 3D meshes (e.g., smoothing, clipping, slicing, and contouring).</li>
+<li>Integration with NumPy &amp; SciPy: Supports NumPy arrays for efficient computation and SciPy for spatial analysis.</li>
+<li>Interactive Plots: Enables interactive 3D visualization using a simple and intuitive API.</li>
+<li>Export &amp; Import: Supports a variety of file formats (e.g., STL, OBJ, VTK, PLY).</li>
+<li>Parallel Processing: Can leverage multi-threading for improved performance.</li>
+<li>Seamless Jupyter Notebook Support: Works well with Jupyter notebooks for in-line visualization.</li>
 </ol>
-<p>Or, create a table:</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Age</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Alice</td>
-<td>20</td>
-</tr>
-<tr class="even">
-<td>Bob</td>
-<td>21</td>
-</tr>
-</tbody>
-</table>
 
 
 </section>

@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "",
     "section": "",
-    "text": "3D plotting and mesh analysis through a streamlined interface for the Visualization Toolkit (VTK)\n\n\nPyVista is:\n\nPythonic VTK: a high-level API to the Visualization Toolkit (VTK)\nmesh data structures and filtering methods for spatial datasets\n3D plotting made simple and built for large/complex data geometries\n\nPyVista is a helper library for the Visualization Toolkit (VTK) that takes a different approach on interfacing with VTK through NumPy and direct array access. This package provides a Pythonic, well-documented interface exposing VTK’s powerful visualization backend to facilitate rapid prototyping, analysis, and visual integration of spatially referenced datasets.\nThis module can be used for scientific plotting for presentations and research papers as well as a supporting module for other mesh dependent Python modules."
+    "text": "3D plotting and mesh analysis through a streamlined interface for the Visualization Toolkit (VTK)\n\n\nPyVista is an open-source Python library that provides tools for 3D visualization and analysis of scientific and engineering data. It is built on top of VTK (Visualization Toolkit) and offers an easy-to-use, Pythonic API for creating and interacting with 3D models, meshes, and volumetric data.\n\nPythonic VTK: a high-level API to the Visualization Toolkit (VTK)\nmesh data structures and filtering methods for spatial datasets\n3D plotting made simple and built for large/complex data geometries\n\nPyVista is a helper library for the Visualization Toolkit (VTK) that takes a different approach on interfacing with VTK through NumPy and direct array access. This package provides a Pythonic, well-documented interface exposing VTK’s powerful visualization backend to facilitate rapid prototyping, analysis, and visual integration of spatially referenced datasets.\nThis module can be used for scientific plotting for presentations and research papers as well as a supporting module for other mesh dependent Python modules."
   },
   {
     "objectID": "posts/installation.html",
@@ -32,6 +32,6 @@
     "href": "posts/welcome.html",
     "title": "Key Features",
     "section": "",
-    "text": "3D Visualization\nOverview\nprint(\"Hello World\")\nI can also write math equations:\n\\[\ny = x^2\n\\]\nI can create lists easily:\n\nOne\nTwo\n\nI can also create numbered lists:\n\nOne\nTwo\n\nOr, create a table:\n\n\n\nName\nAge\n\n\n\n\nAlice\n20\n\n\nBob\n21"
+    "text": "Key Features of PyVista\n\n3D Visualization: Easily create and render 3D objects such as point clouds, surfaces, volumes, and structured/unstructured grids.\nMesh Analysis and Processing: Provides tools for manipulating and analyzing 3D meshes (e.g., smoothing, clipping, slicing, and contouring).\nIntegration with NumPy & SciPy: Supports NumPy arrays for efficient computation and SciPy for spatial analysis.\nInteractive Plots: Enables interactive 3D visualization using a simple and intuitive API.\nExport & Import: Supports a variety of file formats (e.g., STL, OBJ, VTK, PLY).\nParallel Processing: Can leverage multi-threading for improved performance.\nSeamless Jupyter Notebook Support: Works well with Jupyter notebooks for in-line visualization."
   }
 ]
