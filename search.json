@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "PyVista Overview",
     "section": "",
-    "text": "Getting Started\n\n\n\n\n\nInstallation & Setup\n\n\n\n\n\nFeb 24, 2025\n\n\nArpit Gaur, Prince A Patel, Monika Nagliya\n\n\n\n\n\n\n\n\n\n\n\n\nKey Features\n\n\n\n\n\nWelcome Post\n\n\n\n\n\nFeb 22, 2025\n\n\nArpit Gaur, Prince A Patel, Monika Nagliya\n\n\n\n\n\n\n\n\n\n\n\n\nSimple Visualisation\n\n\n\n\n\n\nML\n\n\n\n\n\n\n\n\n\nFeb 14, 2025\n\n\nNipun Batra\n\n\n\n\n\n\nNo matching items"
+    "text": "Getting Started\n\n\n\n\n\nInstallation, Setup and Examples\n\n\n\n\n\nFeb 24, 2025\n\n\nArpit Gaur, Prince A Patel, Monika Nagliya\n\n\n\n\n\n\n\n\n\n\n\n\nKey Features\n\n\n\n\n\nWelcome Post\n\n\n\n\n\nFeb 22, 2025\n\n\nArpit Gaur, Prince A Patel, Monika Nagliya\n\n\n\n\n\n\n\n\n\n\n\n\nSimple Visualisations and Examples\n\n\n\n\n\n\nML\n\n\n\n\n\n\n\n\n\nFeb 14, 2025\n\n\nArpit Gaur, Prince A Patel, Monika Nagliya\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -18,14 +18,14 @@
     "href": "posts/installation.html",
     "title": "Getting Started",
     "section": "",
-    "text": "Installation\n1. Install Pyvista\nThe only prerequisite for installing PyVista is Python itself. We can use Anaconda or Pip as a virtual environment and package manager for Python.\nPyVista can be installed by conda-forge:\nconda install -c conda-forge pyvista\nor can be installed via pip by the following command:\npip install pyvista\nThis will automatically install PyVista along with all the necessary dependencies.\n2. Optional: Install vtk for 3D Visualization\nPyVista builds on VTK, so if you’re running into issues with installation or if you want to manually install VTK, you can install it separately:\npip install vtk\n3. Verify the Installation\nOnce installed, you can verify if everything is set up correctly by opening a Python environment (either a Python shell or a Jupyter notebook) and typing:\nimport pyvista as pv\nprint(pv.__version__)\n4. Optional: Install trame for 3D Visualization\nWe will be going to install trame library which is an optional dependency for interactive notebook rendering.\npip install trame-vuetify trame-vtk\nThis will open an interactive 3D plot. You can rotate, zoom, and inspect the mesh. With that, we’re ready to use PyVista!"
+    "text": "Installation\n1. Install Pyvista\nThe only prerequisite for installing PyVista is Python itself. We can use Anaconda or Pip as virtual environment and package manager for Python.\nPyVista can be installed by conda-forge:\nconda install -c conda-forge pyvista\nor can be installed via pip by the following command:\npip install pyvista\nThis will automatically install PyVista along with all the necessary dependencies.\n2. Optional: Install vtk for 3D Visualization\nPyVista builds on VTK, so if you’re running into issues with installation or if you want to manually install VTK, you can install it separately:\npip install vtk\n3. Verify the Installation\nOnce installed, you can verify if everything is set up correctly by opening a Python environment (either a Python shell or a Jupyter notebook) and typing:\nimport pyvista as pv\nprint(pv.__version__)\n4. Optional: Install trame for 3D Visualization\nWe will be going to install trame library which is an optional dependency for interactive notebook rendering.\npip install trame-vuetify trame-vtk\nThis will open an interactive 3D plot. You can rotate, zoom, and inspect the mesh.\nWith that, we’re ready to use PyVista!"
   },
   {
     "objectID": "posts/visualisation.html",
     "href": "posts/visualisation.html",
-    "title": "Simple Visualisation",
+    "title": "Simple Visualisations and Examples",
     "section": "",
-    "text": "import numpy as np\nimport matplotlib.pyplot as plt\n%matplotlib inline\n%config InlineBackend.figure_format = 'retina'\n\n\nx = np.linspace(0, 10, 100)\ny = np.sin(x)\n\nplt.plot(x, y)"
+    "text": "After the installation, we can start using PyVista for 3D visualization. Here area some simple example to plot and analyse 3D mesh:\n\nimport pyvista as pv\n\n# Create a simple mesh (sphere)\nsphere = pv.Sphere()\n\n# Plot the mesh\nsphere.plot()\n\n\n\n\n\nfrom pyvista import examples\n\n\nmesh = examples.load_random_hills() # automatically download\ncontours = mesh.contour()\ncontours\n\n\n\n\n\n\n\n\nHeader\nData Arrays\n\n\n\n\n\nPolyData\nInformation\n\n\nN Cells\n3709\n\n\nN Points\n3731\n\n\nN Strips\n0\n\n\nX Bounds\n-1.000e+01, 1.000e+01\n\n\nY Bounds\n-2.309e-14, 2.000e+01\n\n\nZ Bounds\n9.573e-01, 7.483e+00\n\n\nN Arrays\n2\n\n\n\n\n\n\nName\nField\nType\nN Comp\nMin\nMax\n\n\nNormals\nPoints\nfloat32\n3\n-8.643e-01\n9.992e-01\n\n\nElevation\nPoints\nfloat32\n1\n9.573e-01\n7.483e+00\n\n\n\n\n\n\n\n\n\nmesh.plot()"
   },
   {
     "objectID": "posts/welcome.html",
