@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "PyVista Overview",
     "section": "",
-    "text": "3D Visualizations\n\n\n\n\n\nWelcome Post\n\n\n\n\n\nFeb 22, 2025\n\n\nArpit Gaur, Prince A Patel, Monika Nagliya\n\n\n\n\n\n\n\n\n\n\n\n\nSimple Visualisation\n\n\n\n\n\n\nML\n\n\n\n\n\n\n\n\n\nFeb 14, 2025\n\n\nNipun Batra\n\n\n\n\n\n\nNo matching items"
+    "text": "Key Features\n\n\n\n\n\nWelcome Post\n\n\n\n\n\nFeb 22, 2025\n\n\nArpit Gaur, Prince A Patel, Monika Nagliya\n\n\n\n\n\n\n\n\n\n\n\n\nSimple Visualisation\n\n\n\n\n\n\nML\n\n\n\n\n\n\n\n\n\nFeb 14, 2025\n\n\nNipun Batra\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -23,7 +23,7 @@
   {
     "objectID": "posts/welcome.html",
     "href": "posts/welcome.html",
-    "title": "3D Visualizations",
+    "title": "Key Features",
     "section": "",
     "text": "3D Visualizations\nOverview\nprint(\"Hello World\")\nI can also write math equations:\n\\[\ny = x^2\n\\]\nI can create lists easily:\n\nOne\nTwo\n\nI can also create numbered lists:\n\nOne\nTwo\n\nOr, create a table:\n\n\n\nName\nAge\n\n\n\n\nAlice\n20\n\n\nBob\n21"
   }
