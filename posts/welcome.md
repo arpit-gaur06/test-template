@@ -1,5 +1,5 @@
 ---
-title: "3D Visualizations"
+title: "Key Features"
 description: "Welcome Post"
 author: "Arpit Gaur, Prince A Patel, Monika Nagliya"
 date: "2/22/2025"
