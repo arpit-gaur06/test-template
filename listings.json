@@ -3,9 +3,9 @@
     "listing": "/blog.html",
     "items": [
       "/posts/uses.html",
-      "/posts/installation.html",
+      "/posts/visualisation.html",
       "/posts/welcome.html",
-      "/posts/visualisation.html"
+      "/posts/installation.html"
     ]
   }
 ]
