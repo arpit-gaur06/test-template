@@ -2,7 +2,7 @@
 title: "Use Cases"
 description: "Use cases and practical applications"
 author: "Arpit Gaur, Prince A Patel, Monika Nagliya"
-date: "2/24/2025"
+date: "2/22/2025"
 ---
 
 PyVista is widely used across various fields due to its powerful 3D visualization and mesh analysis capabilities. Below are some key use cases and practical applications:
