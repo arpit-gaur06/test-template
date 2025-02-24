@@ -12,6 +12,8 @@ website:
         text: Blog
       - href: references.qmd
         text: References
+      - href: about.qmd
+        text: Team
 
 
 format:
