@@ -1,5 +1,5 @@
 ---
-title: "PyVista: The Ultimate 3-D Visualization Python Library"
+title: "The Ultimate 3-D Visualization Python Library"
 listing:
   contents: posts
   sort: "date desc"

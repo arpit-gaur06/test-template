@@ -10,6 +10,7 @@ PyVista is widely used across various fields due to its powerful 3D visualizatio
 **1. Scientific and Engineering Visualization**
 - Use Case: Visualizing simulation results in engineering and physics
 - Application: Computational Fluid Dynamics (CFD), Finite Element Analysis (FEA), and heat transfer simulations.
+
 Example: Visualizing fluid flow simulation results.
 
 **2. Medical Imaging and Volume Rendering**
