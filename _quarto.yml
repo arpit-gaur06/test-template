@@ -27,3 +27,4 @@ format:
 
 execute:
   freeze: auto
+  enabled: true
