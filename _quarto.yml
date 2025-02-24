@@ -27,7 +27,6 @@ format:
 
 execute:
   enabled: true
-  execute: true
   echo: true  # hides code
   eval: true  # prevents execution
   output: true  # hides output
