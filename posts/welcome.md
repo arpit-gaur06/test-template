@@ -1,6 +1,7 @@
 ---
 title: "Key Features"
 author: "Arpit Gaur, Prince A Patel, Monika Nagliya"
+description: "Useful Attributes and Features"
 date: "2/22/2025"
 ---
 
