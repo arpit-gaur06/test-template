@@ -26,5 +26,9 @@ format:
 
 
 execute:
-  freeze: auto
+  
   enabled: true
+  execute:
+  echo: true  # hides code
+  eval: true  # prevents execution
+  output: true  # hides output
