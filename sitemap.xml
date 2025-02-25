@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://arpit-gaur06.github.io/test-template/references.html</loc>
-    <lastmod>2025-02-25T09:28:26.732Z</lastmod>
-  </url>
-  <url>
-    <loc>https://arpit-gaur06.github.io/test-template/posts/visualisation.html</loc>
-    <lastmod>2025-02-25T09:28:26.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://arpit-gaur06.github.io/test-template/posts/installation.html</loc>
-    <lastmod>2025-02-25T09:28:26.730Z</lastmod>
-  </url>
-  <url>
-    <loc>https://arpit-gaur06.github.io/test-template/posts/conclusion.html</loc>
-    <lastmod>2025-02-25T09:28:26.730Z</lastmod>
+    <loc>https://arpit-gaur06.github.io/test-template/blog.html</loc>
+    <lastmod>2025-02-25T09:29:49.239Z</lastmod>
   </url>
   <url>
     <loc>https://arpit-gaur06.github.io/test-template/index.html</loc>
-    <lastmod>2025-02-25T09:28:26.730Z</lastmod>
+    <lastmod>2025-02-25T09:29:49.239Z</lastmod>
+  </url>
+  <url>
+    <loc>https://arpit-gaur06.github.io/test-template/posts/installation.html</loc>
+    <lastmod>2025-02-25T09:29:49.239Z</lastmod>
+  </url>
+  <url>
+    <loc>https://arpit-gaur06.github.io/test-template/posts/conclusion.html</loc>
+    <lastmod>2025-02-25T09:29:49.239Z</lastmod>
   </url>
   <url>
     <loc>https://arpit-gaur06.github.io/test-template/about.html</loc>
-    <lastmod>2025-02-25T09:28:26.730Z</lastmod>
+    <lastmod>2025-02-25T09:29:49.239Z</lastmod>
   </url>
   <url>
     <loc>https://arpit-gaur06.github.io/test-template/posts/uses.html</loc>
-    <lastmod>2025-02-25T09:28:26.730Z</lastmod>
+    <lastmod>2025-02-25T09:29:49.239Z</lastmod>
+  </url>
+  <url>
+    <loc>https://arpit-gaur06.github.io/test-template/posts/visualisation.html</loc>
+    <lastmod>2025-02-25T09:29:49.239Z</lastmod>
   </url>
   <url>
     <loc>https://arpit-gaur06.github.io/test-template/posts/welcome.html</loc>
-    <lastmod>2025-02-25T09:28:26.731Z</lastmod>
+    <lastmod>2025-02-25T09:29:49.239Z</lastmod>
   </url>
   <url>
-    <loc>https://arpit-gaur06.github.io/test-template/blog.html</loc>
-    <lastmod>2025-02-25T09:28:26.730Z</lastmod>
+    <loc>https://arpit-gaur06.github.io/test-template/references.html</loc>
+    <lastmod>2025-02-25T09:29:49.241Z</lastmod>
   </url>
 </urlset>
