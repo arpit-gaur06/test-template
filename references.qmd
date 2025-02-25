@@ -5,13 +5,13 @@ Here are some reputable sources and further readings on PyVista:
 Official Documentation & Tutorials
 
 1. PyVista Documentation – The official documentation with API references, tutorials, and examples.
-    🔗 <https://docs.pyvista.org/>
+    🔗<https://docs.pyvista.org/>
 
 2. PyVista GitHub Repository – Source code, issues, and community contributions.
-    🔗 <https://github.com/pyvista/pyvista>
+    🔗<https://github.com/pyvista/pyvista>
 
 3. The original paper published by devlopers on Journal of Open Source Software.
-    🔗 <https://joss.theoj.org/papers/10.21105/joss.01450>
+    🔗<https://joss.theoj.org/papers/10.21105/joss.01450>
 
 4. VTK: The Visualization Toolkit – PyVista is built on top of VTK, which is a well-documented and widely used library for scientific visualization.
-    🔗 <https://vtk.org/>
+    🔗<https://vtk.org/>
